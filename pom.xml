@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>springboot-starter-create</module>
+        <module>jsonformat-spring-boot-starter</module>
         <module>springboot-redis</module>
     </modules>
 

@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.kevin</groupId>
-            <artifactId>springboot-starter-create</artifactId>
+            <artifactId>jsonformat-spring-boot-starter</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
