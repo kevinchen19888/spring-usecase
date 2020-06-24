@@ -6,6 +6,7 @@
     <modules>
         <module>jsonformat-spring-boot-starter</module>
         <module>springboot-redis</module>
+        <module>springboot-websocket</module>
     </modules>
 
     <parent>
