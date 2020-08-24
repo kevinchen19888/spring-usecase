@@ -7,6 +7,7 @@
         <module>jsonformat-spring-boot-starter</module>
         <module>springboot-redis</module>
         <module>springboot-websocket</module>
+        <module>springboot-jackson</module>
     </modules>
 
     <parent>
@@ -25,6 +26,7 @@
     <properties>
         <java.version>1.8</java.version>
         <fastjson.version>1.2.56</fastjson.version>
+        <googl.json.version>2.2.4</googl.json.version>
     </properties>
 
     <dependencies>
@@ -50,6 +52,22 @@
             </exclusions>
         </dependency>
     </dependencies>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${googl.json.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
