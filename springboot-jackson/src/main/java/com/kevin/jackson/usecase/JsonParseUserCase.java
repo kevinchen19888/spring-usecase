@@ -1,4 +1,4 @@
-package com.kevin.jackson;
+package com.kevin.jackson.usecase;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.Version;
@@ -9,6 +9,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.kevin.jackson.CarDeserializer;
+import com.kevin.jackson.CarSerializer;
 import com.kevin.jackson.domain.Car;
 import com.kevin.jackson.domain.Transaction;
 import org.junit.Assert;
