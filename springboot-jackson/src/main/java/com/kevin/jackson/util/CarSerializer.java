@@ -1,4 +1,4 @@
-package com.kevin.jackson;
+package com.kevin.jackson.util;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
@@ -25,6 +25,12 @@ public class CarSerializer extends StdSerializer<Car> {
         jsonGenerator.writeStringField("producer", car.getBrand());
         jsonGenerator.writeNumberField("doorCount", car.getDoors());
         jsonGenerator.writeEndObject();
+    }
+
+    public static void main(String[] args) {
+        System.out.println("first commit");
+        System.out.println("second commit");
+        System.out.println("third commit");
     }
 }
 

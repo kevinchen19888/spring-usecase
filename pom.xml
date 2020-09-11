@@ -9,6 +9,7 @@
         <module>springboot-websocket</module>
         <module>springboot-rest</module>
         <module>springboot-jackson</module>
+        <module>base</module>
     </modules>
 
     <parent>

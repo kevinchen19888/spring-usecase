@@ -3,9 +3,9 @@ package com.kevin.jackson.usecase;
 import com.fasterxml.jackson.annotation.JacksonInject;
 import com.fasterxml.jackson.databind.InjectableValues;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.kevin.base.ResourceUtil;
 import lombok.ToString;
 
-import java.io.File;
 import java.io.IOException;
 
 /**
@@ -29,7 +29,7 @@ public class JacksonInjectDemo {
                 .addValue("name", "nameVal");
         PersonInject personInject = new ObjectMapper().reader(inject)
                 .forType(PersonInject.class)
-                .readValue(new File("D:\\Files\\workSpace\\spring-usecase\\springboot-jackson\\src\\main\\resources\\data\\person.json"));
+                .readValue(ResourceUtil.getResourceAsStream("data/person.json"));
 
         System.out.println(personInject);
     }
