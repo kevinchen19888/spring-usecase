@@ -12,7 +12,7 @@ import java.io.IOException;
  */
 public class CarSerializer extends StdSerializer<Car> {
 
-    protected CarSerializer(Class<Car> t) {
+    public CarSerializer(Class<Car> t) {
         super(t);
     }
 
