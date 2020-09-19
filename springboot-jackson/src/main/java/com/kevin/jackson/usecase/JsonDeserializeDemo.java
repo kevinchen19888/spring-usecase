@@ -23,11 +23,7 @@ public class JsonDeserializeDemo {
     }
 
     public static void main(String[] args) throws IOException {
-        String json = "{\n" +
-                "  \"id\": 123,\n" +
-                "  \"name\": \"kevin\",\n" +
-                "  \"enabled\": 1\n" +
-                "}";
+        String json = "{\n  \"id\": 123,\n  \"name\": \"kevin\",\n  \"enabled\": 1\n}";
         ObjectMapper objectMapper = new ObjectMapper();
         PersonDeserialize value = objectMapper.readValue(json, PersonDeserialize.class);
         System.out.println(value);

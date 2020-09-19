@@ -26,7 +26,6 @@ public class CarDeserializer extends StdDeserializer<Car> {
             if (JsonToken.FIELD_NAME.equals(jsonToken)) {
                 String fieldName = parser.getCurrentName();
                 System.out.println(fieldName);
-
                 jsonToken = parser.nextToken();
 
                 if ("brand".equals(fieldName)) {
