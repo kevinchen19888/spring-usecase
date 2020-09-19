@@ -1,4 +1,4 @@
-package com.kevin.jackson;
+package com.kevin.jackson.util;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;

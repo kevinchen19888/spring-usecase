@@ -1,4 +1,4 @@
-package com.kevin.jackson;
+package com.kevin.jackson.usecase;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
