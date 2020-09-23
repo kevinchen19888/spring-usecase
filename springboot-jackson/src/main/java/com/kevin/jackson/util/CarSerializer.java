@@ -27,9 +27,5 @@ public class CarSerializer extends StdSerializer<Car> {
         jsonGenerator.writeEndObject();
     }
 
-    public static void main(String[] args) {
-        System.out.println("1 commit");
-        System.out.println("2 commit");
-    }
 }
 
