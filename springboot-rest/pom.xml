@@ -12,7 +12,7 @@
     <artifactId>springboot-rest</artifactId>
 
     <properties>
-        <fastjson>1.2.72</fastjson>
+        <fastjson>1.2.83</fastjson>
     </properties>
 
     <dependencies>
